@@ -1,6 +1,6 @@
 var qt = {
-  modify : function(id,part,to) {
-    document.getElementById(id).part = to
+  mod : function(id,to) {
+    document.getElementById(id).innerHTML = to
   },
   ask : function(query) {
     let askresponse = prompt(query)
