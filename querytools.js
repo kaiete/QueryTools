@@ -8,5 +8,8 @@ var qt = {
   },
   say : function(msg) {
     alert(msg)
+  },
+  log : function(msg) {
+    console.log(msg)
   }
 }
