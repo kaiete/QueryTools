@@ -30,7 +30,7 @@ var qt = {
     if (statementToCheck) {
       return true
       eval(toRunIfTruthy)
-    } else if (not statementToCheck) {
+    } else if (statementToCheck == false) {
       return false
       eval(toRunIfFalsy)
     } else {
