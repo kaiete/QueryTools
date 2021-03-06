@@ -38,5 +38,8 @@ var qt = {
       alert("Please press Ctrl+shift+I (Cmd+shift+I), then tap Console")
       console.log("QueryTools ran into an error, and this site might not work correctly. We recommend contacting the developer and telling them that QueryTools found an invalid qt.if statement.")
     }
+  },
+  clone : function() {
+    this.clone = "hmmmmmmmm"
   }
 }
