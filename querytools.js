@@ -40,6 +40,6 @@ var qt = {
     }
   },
   clone : function() {
-    this.clone = "hmmmmmmmm"
+    this.clone = "hmmmmmmmm that didn't work"
   }
 }
