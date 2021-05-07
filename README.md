@@ -1,5 +1,5 @@
 # QueryTools
->Useful shortenings of plain JS.
+> Useful shortenings of plain JS.
 ## Getting started
 ### Commands
 #### qt.**mod**
@@ -18,3 +18,10 @@ document.getElementById().innerHTML = ""
 **Parameters**
 
 id, newcontent
+
+-----------
+
+#### new qt.**clone**()
+**Summary**
+
+In the example `var foo = new qt.clone()`, because clones of querytools would be cool but sadly don't exist, `foo.clone == "hmmmmmmmm that didn't work"`.
