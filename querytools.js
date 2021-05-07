@@ -28,15 +28,15 @@ var qt = {
   },
   if : function(statementToCheck,toRunIfTruthy,toRunIfFalsy) {
     if (statementToCheck) {
-      return true
       eval(toRunIfTruthy)
+      return true
     } else if (statementToCheck == false) {
-      return false
       eval(toRunIfFalsy)
+      return false
     } else {
-      return "QT-Error: returned neither true nor false"
       alert("Please press Ctrl+shift+I (Cmd+shift+I), then tap Console")
       console.log("QueryTools ran into an error, and this site might not work correctly. We recommend contacting the developer and telling them that QueryTools found an invalid qt.if statement.")
+      return "QT-Error: returned neither true nor false"
     }
   },
   clone : function() {
